@@ -1,0 +1,52 @@
+﻿.social{
+	text-align: center;
+}
+.item{
+	display: inline-block;
+	list-style-type: none;
+}
+.link {
+	text-decoration: none;
+	font-size: 0px;
+    display: block;
+	margin-right: 5px;
+	color: #000;
+	width: 60px;
+}
+.facebook::before {
+	font-family: 'Font Awesome 5 Brands';
+	font-size: 60px;
+	content: '\f082';
+}
+.facebook:hover {
+	color: #fff;
+	background-color: #305fb3;
+}
+.google::before{
+	font-family: 'Font Awesome 5 Brands';
+	font-size: 60px;
+	content: '\f2b3';
+}
+.google:hover{
+	color: #fff;
+	background-color: #d7482a;
+}
+
+.pinrest::before{
+	font-family: 'Font Awesome 5 Brands';
+	font-size: 60px;
+	content: '\f0d2';
+}
+.pinrest:hover{
+	color: #fff;
+	background-color: #e1003a;
+}
+.skype::before{
+	font-family: 'Font Awesome 5 Brands';
+	font-size: 60px;
+	content: '\f17e';
+}
+.skype:hover{
+	color: #fff;
+	background-color: #12c7ef;
+}
